@@ -1,0 +1,5 @@
+[env]
+AVR_CPU_FREQUENCY_HZ = "1280000"
+
+[build]
+rustflags = ["-C", "link-args=-lc"]
